@@ -1,0 +1,23 @@
+{
+    "name": "sellastica/stop-watch",
+	"type": "project",
+	"homepage": "https://github.com/sellastica/stop-watch",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Tomáš Krejčí",
+            "email": "tomas@differencemakers.cz"
+        }
+    ],
+    "require": {
+		"php": ">=7.1",
+		"sellastica/dumper": "^1.0.1"
+    },
+	"require-dev": {
+    },
+	"autoload": {
+        "psr-4": {
+            "Sellastica\\StopWatch\\": "src/"
+        }
+	}
+}
