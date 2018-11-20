@@ -49,7 +49,7 @@ class StopWatch
 	/**
 	 * @param bool $die
 	 */
-	public static function dump($die = false): void
+	public static function dump($die = true): void
 	{
 		f(sprintf('%s seconds (%s miliseconds)', self::get(), self::get() * 1000), 'Stopwatch');
 		if ($die) {
